@@ -14,14 +14,13 @@ import { FormControl, Select, MenuItem } from "@mui/material";
 
 
 const visaTypes = [
-  { type: "14-Day Tourist Visa (Adult, Single Entry)", price: 25000 },
-  { type: "14-Day Tourist Visa (Child Under 12, Single Entry)", price: 20000 },
-  { type: "30-Day Tourist Visa (Adult, Single Entry)", price: 35000 },
-  { type: "30-Day Tourist Visa (Child Under 12, Single Entry)", price: 20000 },
-  { type: "30-Day Tourist Visa (Child Under 12, Multiple Entry)", price: 35000 },
-  { type: "60-Day Tourist Visa (Adult, Single Entry)", price: 50000 },
-  { type: "60-Day Tourist Visa (Adult, Multiple Entry)", price: 50000 },
-  { type: "60-Day Tourist Visa (Child Under 12, Multiple Entry)", price: 50000 },
+  { type: "14 Days Visa - Adult (Over 12) - Single Entry", price: 32000 },
+  { type: "14 Days Visa - Child (Under 12) - Single Entry", price: 16500 },
+  { type: "30 Days Visa - Adult (Over 12) - Single Entry", price: 33500 },
+  { type: "30 Days Visa - Child (Under 12) - Single Entry", price: 16500 },
+  { type: "30 Days Visa - Adult (Over 12) - Multiple Entry", price: 80000 },
+  { type: "60 Days Visa - Adult (Over 12) - Single Entry", price: 85000 },
+  { type: "60 Days Visa - Adult (Over 12) - Multiple Entry", price: 95000 },
 ];
 
 const ViewPriceDetails = () => {
